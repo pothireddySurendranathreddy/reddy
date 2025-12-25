@@ -1,0 +1,27 @@
+title: Dr. Pothireddy Surendranath Reddy
+description: >
+  Official medical articles and professional profile of
+  Dr. Pothireddy Surendranath Reddy, Orthopaedic Surgeon,
+  Joint Replacement & Arthroscopy Specialist.
+
+theme: minima
+
+author:
+  name: Dr. Pothireddy Surendranath Reddy
+
+email: info@example.com
+
+plugins:
+  - jekyll-seo-tag
+
+markdown: kramdown
+
+minima:
+  skin: auto
+  social_links:
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/pothireddy-surendranath-reddy-a980b438a" }
+    - { platform: youtube, user_url: "https://www.youtube.com/@srp3597" }
+    - { platform: twitter, user_url: "https://x.com/pothireddy1196" }
+
+header_pages:
+  - index.md
