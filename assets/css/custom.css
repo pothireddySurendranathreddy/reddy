@@ -1,0 +1,26 @@
+.pdf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 15px;
+}
+
+.pdf-grid a {
+  display: block;
+  padding: 14px;
+  background: linear-gradient(135deg, #e3f2fd, #ffffff);
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0f4c75;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+.pdf-grid a:hover {
+  transform: translateY(-3px);
+  transition: 0.2s;
+}
+
+.footer-grid {
+  columns: 2;
+  column-gap: 30px;
+}
